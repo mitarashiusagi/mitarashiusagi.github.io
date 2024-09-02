@@ -1,0 +1,142 @@
+/* Reset some basic styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #ffe4e1;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-weight: 500;
+}
+
+/* Hero section */
+.hero {
+    height: 60vh;
+    background-color: #ffb6c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* About section */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff69b4;
+}
+
+/* Projects section */
+.projects {
+    padding: 60px 20px;
+    background-color: #f0e68c;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    width: 30%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Blog section */
+.blog {
+    padding: 60px 20px;
+    background-color: #ffe4e1;
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.social-media a {
+    color: #ff69b4;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
